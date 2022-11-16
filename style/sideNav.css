@@ -1,0 +1,101 @@
+#part2{
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    margin-top: 7vh;
+
+}
+
+
+.leftNav{
+    height: 650px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-between;
+
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top : 20px ;
+}
+
+.homeImg{
+    width: 2rem;
+    margin-bottom: 5px;
+}
+
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.exploreImg{
+    margin-bottom: 5px;
+    width: 2rem;
+}
+
+.subscription{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.subscriptionImg{
+    margin-bottom: 5px;
+    width: 2rem;
+}
+
+.originals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.originalsImg{
+    margin-bottom: 5px;
+    width: 2rem;
+
+
+}
+
+.gaming{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.gamingImg{
+    margin-bottom: 5px;
+    width: 2rem;
+}
+
+.library{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.libraryImg{
+    margin-bottom: 5px;
+    width: 2rem;
+
+}

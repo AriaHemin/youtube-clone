@@ -1,0 +1,119 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0.8rem 2rem    
+}
+
+.hamIcon{
+    width: 2em;
+
+}
+
+.ytIcon{
+    width: 8rem;
+    margin-inline: 2.5rem;
+}
+
+.middleSection{
+    display: flex;
+    align-items: center;
+    margin: 0.8rem 1.3rem ;
+    flex: 1;
+    max-width: 500px;   
+
+}
+
+.search{
+    flex: 1;
+
+    height: 3rem;
+    width: 0;
+    
+    
+    
+}
+
+.searchButton{
+    height: 3rem;
+    margin-left: -2px;
+    
+
+}
+
+#searchIcon{
+    margin-inline: 10px;
+    width: 1.5rem;
+}
+
+.voiceSearch{
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-inline: 10px;
+    border-radius: 24px;
+    border: 0px;
+    padding: 6px 6px;
+
+}
+
+#voiceSearchIcon{
+    width: 1.5rem;
+
+}
+
+.rightSection{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.8rem 1.3rem  ;
+    flex-wrap: nowrap;
+    margin-right: 510px;
+    flex-shrink: 0;
+}
+
+
+
+.upload{
+   
+    width: 1.8rem;
+   
+    
+}
+.yt-apps{
+   
+    width: 1.8rem;
+   
+    
+}
+
+.notification{
+   
+    width: 1.8rem;
+    
+    
+}
+
+.pfp{
+    width: 2rem;
+    border-radius: 18px;
+    height: 2rem;
+    object-fit: cover;
+    object-position: top;
+   
+}
